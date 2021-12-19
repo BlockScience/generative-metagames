@@ -1,5 +1,8 @@
 # Exploring MAIDs as a Family of Process DAGs
 
+[![hackmd-github-sync-badge](https://hackmd.io/X9sK2r2DTLexvIDyclfw5Q/badge)](https://hackmd.io/X9sK2r2DTLexvIDyclfw5Q)
+
+
 In our research on [generative metagames](https://hackmd.io/@mzargham/Hyrah379K), the "statespace" is an instance of a multi-agent influence diagram, or MAID. In order to proceed with that work, it is necessary to understand the nature of a point in that space, an instance of a MAID. In this note I work through the Killer Tree example from Koller and Milch (Koller, D. and B. Milch, 2003, "[Multi-agent influence diagrams for representing and solving games](https://doi.org/10.1016/S0899-8256(02)00544-4)", Games and Economic Behavior 45(1), pp. 181-221), in order to refine my understanding of the space of MAIDs.
 
 ## MAIDs notation
