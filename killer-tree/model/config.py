@@ -2,10 +2,12 @@ from cadCAD import configuration
 
 from .psub import psubs
 from .state import genesis_state
+from .params import params
 
 simulation_config = configuration.utils.config_sim({
     "T": range(10),
-    "N": 1
+    "N": 1,
+    "M": params
 })
 
 exp = configuration.Experiment()
