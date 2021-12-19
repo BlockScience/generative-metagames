@@ -1,24 +1,29 @@
 from .behavior import Alice, Bob
 
+## Note: this is a repeated game
+# the only state variable carried between rounds is the Agent
+# therefore all other genesis states are empty
+# because there should be no prior round state dependence
+
 genesis_state = {
     "Alice": 
     {
         "Agent": Alice(),
-        "Poison Tree Decision": False, 
-        "Build Patio Decision": False, 
-        "Effort Utility":0, 
-        "View Utility":0
+        "Poison Tree Decision": None, 
+        "Build Patio Decision": None, 
+        "Effort Utility":None, 
+        "View Utility":None
     },
     "Bob": 
     {
         "Agent": Bob(),
-        "Tree Doctor Decision": False,
-        "Cost Utility": 0,
-        "Tree Utility": 1
+        "Tree Doctor Decision": None,
+        "Cost Utility": None,
+        "Tree Utility": None
     },
     "World":
     {
-        "Tree Sick Outcome": False,
-        "Tree Dead Outcome": False
+        "Tree Sick Outcome": None,
+        "Tree Dead Outcome": None
     }
 }

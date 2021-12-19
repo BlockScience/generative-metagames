@@ -23,7 +23,7 @@ def is_Tree_Dead(params, step, prev_state, state, _input):
     
     prior = state['World']['Tree Sick Outcome']
 
-    tree_doctor = state['Bob']['Tree Doctor Decision']
+    tree_doctor = _input['doctor']
     doctor_skill = params['doctor_skill']
 
     posterior = prior*(1- doctor_skill*tree_doctor)
