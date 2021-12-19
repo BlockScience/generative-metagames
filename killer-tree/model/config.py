@@ -6,7 +6,7 @@ from .params import params
 
 simulation_config = configuration.utils.config_sim({
     "T": range(10),
-    "N": 1,
+    "N": 2,
     "M": params
 })
 
